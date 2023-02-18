@@ -1,0 +1,54 @@
+.MainLoginBox{
+    height: 100vh;
+    padding-top: 5rem;
+    
+}
+.liftedBox{
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.35);
+    border-radius: 25px;
+
+     /* fallback for old browsers */
+     background: #a6c0fe;
+  
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: -webkit-linear-gradient(to right, rgba(166,192,254,0.3), rgba(246,128,132,0.3));
+   
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to right, rgba(166,192,254,0.3), rgba(246,128,132,0.3));
+
+    padding: 50px;
+}
+.gradient-custom-2 {
+       /* fallback for old browsers */
+    background: #253279;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(37,50,121,0.3), rgba(23,7,242,0.3));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(37,50,121,0.3), rgba(23,7,242,0.3))
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+    .myText {
+        display: none;
+    }
+    .ms-5 {
+         margin-left: 0 !important; 
+    }
+    .liftedBox {
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.35);
+        padding: 20px 20px 20px 20px;
+    }
+}
